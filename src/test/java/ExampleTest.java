@@ -8,7 +8,7 @@ public class ExampleTest {
     }
 
     @Test
-    public void run() {
+    public void aFailingTest() {
         throw mock(RuntimeException.class);
     }
 }
